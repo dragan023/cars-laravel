@@ -9,6 +9,27 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
+        <style>
+            body {
+                background: #123;
+                margin: 0;
+                font-size: 2rem;
+                font-family: 'Nunito';
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                height: 100vh;
+            }
+
+            h1 {
+                color: orange;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+        </style>
+
+
     </head>
     <body>
         <h1>About us</h1>

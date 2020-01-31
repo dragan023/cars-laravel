@@ -9,6 +9,35 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
+        <style>
+            body {
+                background: #123;
+                margin: 0;
+                font-size: 2rem;
+                font-family: 'Nunito';
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                height: 100vh;
+            }
+
+            h2, p {
+                color: orange;
+                margin-top: 0;
+            }
+
+            a, ol {
+                color: #fff;
+                text-decoration: none;
+            }
+
+            a:hover {
+                color: orange;
+                transition: color 0.3s;
+            }
+        </style>
+
     </head>
     <body>
         <h2>Model: {{ $singleCar->title }}</h2>
