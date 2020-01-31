@@ -11,6 +11,8 @@
 
     </head>
     <body>
-        <h1>Welcome to Cars Project</h1>
+        <h1>Welcome {{ $name }}!</h1>
+
+        <h5>I'm {{ $age }} years old.</h5>
     </body>
 </html>
